@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+}
+
+.todo {
+  width: 100%;
+  height: 100vh;
+  background: url("/img/fondo.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .todo {
+    background-size: cover;
+  }
+}
+
+.todo .opacidad {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.todo .opacidad .titulo {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Montserrat Subrayada";
+  font-size: 80px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 700px) {
+  .todo .opacidad .titulo {
+    font-size: 40px;
+  }
+}
+
+.todo .opacidad .caja_eslogan {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow-y: hidden;
+}
+
+.todo .opacidad .caja_eslogan .eslogan {
+  width: 100%;
+  background: #000;
+  text-align: center;
+}
+
+.todo .opacidad .caja_eslogan .eslogan h2 {
+  font-size: 30px;
+  font-family: "Montserrat Subrayada";
+  padding: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .todo .opacidad .caja_eslogan .eslogan h2 {
+    font-size: 18px;
+  }
+}
+
+.todo .opacidad .caja_eslogan .contacto {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  max-width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.todo .opacidad .caja_eslogan .contacto .titulo_cont {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.todo .opacidad .caja_eslogan .contacto .titulo_cont .barra {
+  width: 30%;
+  height: 1px;
+  background: #fff;
+}
+
+.todo .opacidad .caja_eslogan .contacto .titulo_cont h3 {
+  font-family: "Montserrat Subrayada";
+  font-size: 18px;
+}
+
+@media screen and (max-width: 700px) {
+  .todo .opacidad .caja_eslogan .contacto .titulo_cont h3 {
+    font-size: 14px;
+  }
+}
+
+.todo .opacidad .caja_eslogan .contacto i {
+  font-size: 30px;
+  padding: 10px 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+@media screen and (max-width: 700px) {
+  .todo .opacidad .caja_eslogan .contacto i {
+    font-size: 25px;
+  }
+}
+
+.todo .opacidad .caja_eslogan .contacto i:hover {
+  color: #3b5998;
+}
+/*# sourceMappingURL=main.css.map */

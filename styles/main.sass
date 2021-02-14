@@ -1,0 +1,88 @@
+$fuente: "Montserrat Subrayada"
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    color: #fff
+
+.todo
+    width: 100%
+    height: 100vh
+    background: url("/img/fondo.jpg")
+    background-attachment: fixed
+    background-repeat: no-repeat
+    background-position: center
+    background-size: 100% 100%
+    @media screen and ( max-width: 700px)
+        background-size: cover
+    .opacidad
+        width: 100%
+        height: 100vh
+        background: rgba(#000, .40)
+        .titulo
+            position: fixed
+            display: block
+            width: 100%
+            height: 100%
+            padding-top: 20px
+            text-align: center
+            font-family: $fuente
+            font-size: 80px
+            font-weight: 400
+            @media screen and ( max-width: 700px)
+                font-size: 40px
+                
+
+        .caja_eslogan
+            width: 100%
+            height: 100vh
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            overflow-y: hidden
+            .eslogan
+                width: 100%
+                background: #000
+                text-align: center
+                h2
+                    font-size: 30px
+                    font-family: $fuente
+                    padding: 30px
+                    @media screen and ( max-width: 700px)
+                        font-size: 18px
+
+            .contacto
+                position: fixed
+                bottom: 10px
+                width: 100%
+                max-width: 500px
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                .titulo_cont
+                    width: 100%
+                    display: flex
+                    flex-direction: row
+                    justify-content: space-around
+                    align-items: center
+                    .barra
+                        width: 30%
+                        height: 1px
+                        background: #fff
+                    h3
+                        font-family: $fuente
+                        font-size: 18px
+                        @media screen and ( max-width: 700px)
+                            font-size: 14px
+                i 
+                    font-size: 30px
+                    padding: 10px 0
+                    transition: .5s
+                    @media screen and ( max-width: 700px)
+                        font-size: 25px
+                    &:hover
+                        color: #3b5998
+
